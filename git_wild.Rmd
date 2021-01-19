@@ -1,0 +1,40 @@
+---
+title: "Week 3 Discussion File"
+author: "Allison Horst"
+date: "1/18/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+## Part A: Make edits to main that conflict with existing
+
+In this section, you will work in a branch to make updates that conflict with the version of code that are in the main branch. 
+
+- Make a new branch called yourname-branch
+- Make sure you are working in the code chunk below that refers to YOUR partner number. 
+- Follow the commented instructions in your chunk to make edits in your branch, then push changes to your upstream remote branch
+
+```{r partner_1a}
+# Partner 1: 
+# Run the code below to see the original graph
+# Change the code below to make the point color change based on 'cut', and update the theme to theme_bw()
+
+ggplot(data = diamonds, aes(x = carat, y = price)) +
+  geom_point(aes(color = clarity)) +
+  theme_minimal()
+```
+
+```{r partner_2a}
+# Partner 2: 
+# Run the code below to see the original graph
+# Change the code below to make the geom a geom_jitter, and update the theme to theme_light. 
+
+ggplot(data = diamonds, aes(x = color, y = carat)) +
+  geom_jitter() +
+  theme_dark()
+```
+
