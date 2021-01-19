@@ -52,4 +52,5 @@ small_diamonds <- diamonds %>%
 ```
 
 Adding something else here. 
+And then something else. 
 
