@@ -47,7 +47,8 @@ Both partners: continuing in your same branch - in the code chunk below, write s
 Both partners stage, commit, pull & push back to your branch. Submit a PR & merge into main.
 
 ```{r break-it}
-
+yellow_diamonds <- diamonds %>% 
+  filter(color == "yellow")
 ```
 
 
