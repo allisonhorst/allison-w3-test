@@ -40,3 +40,15 @@ ggplot(data = diamonds, aes(x = color, y = carat)) +
   labs(title = "YOURNAME was here")
 ```
 
+## PART B: Make a conflict
+
+Both partners: continuing in your same branch - in the code chunk below, write some random code to make a subset from the diamonds dataset, stored as a name you choose. Do not tell your partner what you're doing there.
+
+Both partners stage, commit, pull & push back to your branch. Submit a PR & merge into main.
+
+```{r break-it}
+
+```
+
+
+
