@@ -21,20 +21,22 @@ In this section, you will work in a branch to make updates that conflict with th
 ```{r partner_1a}
 # Partner 1: 
 # Run the code below to see the original graph
-# Change the code below to make the point color change based on 'cut', and update the theme to theme_bw()
+# Change the code below to make the point color change based on 'cut', and update the theme to theme_bw(). Update the title to include your first name. 
 
 ggplot(data = diamonds, aes(x = carat, y = price)) +
   geom_point(aes(color = cut)) +
-  theme_bw()
+  theme_bw() +
+  labs(title = "YOURNAME was here")
 ```
 
 ```{r partner_2a}
 # Partner 2: 
 # Run the code below to see the original graph
-# Change the code below to make the geom a geom_jitter, and update the theme to theme_light. 
+# Change the code below to make the geom a geom_jitter, and update the theme to theme_light. Update the title to include your first name. 
 
 ggplot(data = diamonds, aes(x = color, y = carat)) +
   geom_violin() +
-  theme_light()
+  theme_light() +
+  labs(title = "YOURNAME was here")
 ```
 
