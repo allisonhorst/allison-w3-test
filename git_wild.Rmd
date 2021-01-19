@@ -24,8 +24,8 @@ In this section, you will work in a branch to make updates that conflict with th
 # Change the code below to make the point color change based on 'cut', and update the theme to theme_bw()
 
 ggplot(data = diamonds, aes(x = carat, y = price)) +
-  geom_point(aes(color = clarity)) +
-  theme_minimal()
+  geom_point(aes(color = cut)) +
+  theme_bw()
 ```
 
 ```{r partner_2a}
